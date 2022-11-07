@@ -12,9 +12,13 @@ public class Exercice3 {
         factoryVehicule vehu2 = VehiculeProducteur.getUsineVehicule("maritime");
         Vehicule v5 = vehu2.produitVehicule("bateau");
         v5.seDeplacer();
-        factoryVehicule vehu3 = VehiculeProducteur.getUsineVehicule("aerien");
-        Vehicule v6 = vehu3.produitVehicule("avion");
+        Vehicule v6 = vehu2.produitVehicule("Navire");
         v6.seDeplacer();
+        factoryVehicule vehu3 = VehiculeProducteur.getUsineVehicule("aerien");
+        Vehicule v7 = vehu3.produitVehicule("avion");
+        v7.seDeplacer();
+        Vehicule v8 = vehu3.produitVehicule("helicoptere");
+        v8.seDeplacer();
 
     }
     

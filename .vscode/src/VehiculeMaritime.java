@@ -5,6 +5,9 @@ public class VehiculeMaritime implements factoryVehicule {
         if(typeVehicule.equalsIgnoreCase("bateau")){
             return new Bateau();
         }
+        if(typeVehicule.equalsIgnoreCase("navire")){
+            return new Navire();
+        }
 
         return null;
     }

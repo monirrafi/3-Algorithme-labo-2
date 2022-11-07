@@ -5,6 +5,9 @@ public class VehiculeAerien implements factoryVehicule {
         if(typeVehicule.equalsIgnoreCase("avion")){
             return new Avion();
         }
+        if(typeVehicule.equalsIgnoreCase("helicoptere")){
+            return new Helicoptere();
+        }
 
         return null;
     }
