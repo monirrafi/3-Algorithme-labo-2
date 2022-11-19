@@ -1,7 +1,7 @@
 class Exercice2
 {
 
-	public static void tri(int[] a, int i)
+	public static void permuter (int[] a, int i)
 	{
 		if(i!=0)
 		{
@@ -19,7 +19,7 @@ class Exercice2
     
 			}
             i--;
-            tri(a,i);
+            permuter (a,i);
 
 		}
 	}
@@ -33,7 +33,7 @@ class Exercice2
 		}
 		else
 		{
-			tri(a, i);
+			permuter (a, i);
 			Insertion(a,i);
  
 		}	
